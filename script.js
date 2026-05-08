@@ -82,6 +82,17 @@ btnTambah.addEventListener("click", function (){
         status.classList.add("status-done");
         alert("Status berhasil diubah");
 
+        status.classList.remove("status-progress");
+        console.log("Class progress berhasil dihapus");
+        status.style.textDecoration = "line-through";
+    });
+
+    listbaru.appendChild(btnEdit);
+    listbaru.appendChild(btnHapus);
+    listbaru.appendChild(btnStatus);
+    daftarTugas.appendChild(listbaru);
+    inputTanggal.value = "";
+
 
 
     inputValue.value ="";
