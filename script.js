@@ -23,7 +23,11 @@ btnTambah.addEventListener("click", function (){
     span.innerHTML = inputValue.value;
 
     listbaru.appendChild(span);
-    daftarTugas.appendChild(listbaru)
+    daftarTugas.appendChild(listbaru);
+    const tanggal = document.createElement("p");
+    tanggal.innerHTML =
+          "Tanggal : " + inputTanggal.value;
+    tanggal.style.fontWeight = "bold";
 
 
     inputValue.value ="";
