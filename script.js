@@ -64,6 +64,10 @@ btnTambah.addEventListener("click", function (){
         alert("Tugas berhasil dihapus");
     });
 
+    const status = document.createElement("p");
+    status.innerHTML = "Status : Progress";
+    status.style.fontWeight = "bold";
+
 
     inputValue.value ="";
 
