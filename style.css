@@ -33,3 +33,14 @@ h3{
     border: none;
     color: white;
 }
+
+.status-progress{
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    border: 2px solid orange;
+}
