@@ -59,6 +59,11 @@ btnTambah.addEventListener("click", function (){
     btnHapus.style.backgroundColor = "red";
     btnHapus.style.color = "white";
 
+    btnHapus.addEventListener("click", function(){
+        listbaru.remove();
+        alert("Tugas berhasil dihapus");
+    });
+
 
     inputValue.value ="";
 
