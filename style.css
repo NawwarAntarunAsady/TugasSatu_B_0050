@@ -44,3 +44,15 @@ h3{
     width: fit-content;
     border: 2px solid orange;
 }
+
+.status-done{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: line-through;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    border: 2px solid green;
+}
