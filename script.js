@@ -72,6 +72,13 @@ btnTambah.addEventListener("click", function (){
     console.log("Class progress berhasil ditambahkan");
     listbaru.appendChild(status);
 
+    const btnStatus = document.createElement("button");
+    btnStatus.innerText = "Ubah Status";
+    btnStatus.style.backgroundColor = "orange";
+    btnStatus.style.color = "white";
+    btnStatus.addEventListener("click", function(){
+
+
 
     inputValue.value ="";
 
