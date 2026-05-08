@@ -48,6 +48,12 @@ btnTambah.addEventListener("click", function (){
         console.log(editTugas);
         alert("Edit tugas");
 
+        if(editTugas !== null){
+            span.innerHTML = editTugas;
+            alert("Tugas berhasil diubah");
+        }
+    });
+
 
     inputValue.value ="";
 
