@@ -78,6 +78,10 @@ btnTambah.addEventListener("click", function (){
     btnStatus.style.color = "white";
     btnStatus.addEventListener("click", function(){
 
+        status.innerHTML = "Status : Done";
+        status.classList.add("status-done");
+        alert("Status berhasil diubah");
+
 
 
     inputValue.value ="";
