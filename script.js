@@ -29,6 +29,10 @@ btnTambah.addEventListener("click", function (){
           "Tanggal : " + inputTanggal.value;
     tanggal.style.fontWeight = "bold";
 
+    listbaru.appendChild(tanggal);
+    const garis = document.createElement("hr");
+    listbaru.appendChild(garis);
+
 
     inputValue.value ="";
 
