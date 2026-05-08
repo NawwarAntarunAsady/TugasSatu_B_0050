@@ -68,6 +68,10 @@ btnTambah.addEventListener("click", function (){
     status.innerHTML = "Status : Progress";
     status.style.fontWeight = "bold";
 
+    status.classList.add("status-progress");
+    console.log("Class progress berhasil ditambahkan");
+    listbaru.appendChild(status);
+
 
     inputValue.value ="";
 
