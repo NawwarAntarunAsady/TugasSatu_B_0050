@@ -1,6 +1,10 @@
 const inputValue = document.getElementById("inputTask");
 const btnTambah = document.getElementById("btnTambahToDo");
 const daftarTugas = document.getElementById("listTugas");
+const inputTanggal = document.getElementById("inputTangal");
+
+console.log("Input Tanggal berhasil diambil");
+console.log(inputTanggal);
 
 btnTambah.addEventListener("click", function (){
 
